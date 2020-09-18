@@ -1,0 +1,22 @@
+/* Read in two integers, add them and display the answer*/
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main(){
+
+    int this_is_a_number1, this_is_a_number2, total;
+
+    printf("Please enter the first integer number: ");
+    scanf("%d", &this_is_a_number1);    /* read number in */
+    printf("You entered %d\n", this_is_a_number1);
+
+    printf("Please enter the second integer number: ");
+    scanf("%d", &this_is_a_number2);    /* read number in */
+    printf("You entered %d\n", this_is_a_number2);
+
+    total = this_is_a_number1 + this_is_a_number2; /* add two numbers */
+    printf("total is %d\n", total);
+    
+    return(0);
+}
